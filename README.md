@@ -65,6 +65,21 @@ assert(len(e.mail) == 2)
 
 ## Question 3 (40 mins)
 
+Execute with
+
+```sh
+# creating django settings file from dev
+cp src/q3/q3/settings_dev.py src/q3/q3/settings.py
+# creaing/migrating database
+python src/q3/manage.py migrate
+# initializing demo data
+python src/q3/manage.py loaddata src/q3/music/fixtures/demo_data.json
+# running server
+python src/q3/manage.py runserver
+```
+
+And open browser at http://127.0.0.1:8000/songs/
+
 Use django rest framework to create a single endpoint *songs/* that returns a list of songs:
 ~~~~
 [
