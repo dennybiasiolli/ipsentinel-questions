@@ -32,6 +32,8 @@ BUT...
 
 ## Question 2 (30 mins)
 
+Execute with `python src/q2.py`
+
 Entries from an LDAP user database are represented in Python as a
 dictionary of key-value pairs, where each key is a case-insensitive
 string object and each value is a list of bytes objects. For example:
