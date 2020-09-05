@@ -10,6 +10,12 @@
 
     `source venv/bin/activate`
 
+- install requirements
+
+    - `pip install -r requirements.txt` for production usage
+
+    - `pip install -r requirements_dev.txt` for development
+
 - follow instructions below for each question
 
 
