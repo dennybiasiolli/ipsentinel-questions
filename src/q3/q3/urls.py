@@ -24,6 +24,6 @@ router = DefaultRouter()
 router.registry.extend(music_router.registry)
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
     path('', include(router.urls))
 ]
