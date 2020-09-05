@@ -21,6 +21,8 @@
 
 ## Question 1 (20 mins)
 
+Execute with `python src/q1.py`
+
 Write a script to implement the game "Fizz Buzz".
 Counting from 1 to 100, print each number in turn, on a new line.
 BUT...
