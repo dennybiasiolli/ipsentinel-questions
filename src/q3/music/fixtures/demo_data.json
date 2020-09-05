@@ -1,0 +1,18 @@
+[
+  {
+    "model": "music.song",
+    "pk": 1,
+    "fields": {
+      "title": "Yesterday",
+      "artist": "John Lennon"
+    }
+  },
+  {
+    "model": "music.song",
+    "pk": 2,
+    "fields": {
+      "title": "Wonderwall",
+      "artist": "Oasis"
+    }
+  }
+]
