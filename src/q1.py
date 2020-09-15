@@ -5,7 +5,7 @@ def fizz_buzz():
             s = 'Fizz'
         if i % 5 == 0 or '5' in str(i):
             s = ' '.join((s, 'Buzz')).lstrip()
-        print(i, s)
+        print(s or str(i))
 
 
 def main():
