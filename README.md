@@ -70,7 +70,7 @@ Execute with
 ```sh
 # creating django settings file from dev
 cp src/q3/q3/settings_dev.py src/q3/q3/settings.py
-# creaing/migrating database
+# creating/migrating database
 python src/q3/manage.py migrate
 # initializing demo data
 python src/q3/manage.py loaddata src/q3/music/fixtures/demo_data.json
